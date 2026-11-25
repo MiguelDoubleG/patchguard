@@ -1,0 +1,28 @@
+- id: oak_buckler
+  name: Oak Buckler
+  cost: 400
+  stats:
+    health: 150
+- id: ruby_shard
+  name: Ruby Shard
+  cost: 400
+  stats:
+    health: 150
+- id: amber_charm
+  name: Amber Charm
+  cost: 350
+  stats:
+    ability_power: 20
+- id: ironbark_shield
+  name: Ironbark Shield
+  cost: 1200
+  builds_from: [oak_buckler, ruby_shard]
+  stats:
+    health: 400
+    armor: 30
+- id: ember_tome
+  name: Ember Tome
+  cost: 1100
+  builds_from: [amber_charm]
+  stats:
+    ability_power: 55

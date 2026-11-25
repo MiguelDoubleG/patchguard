@@ -1,0 +1,36 @@
+id: vessa
+name: Vessa
+title: the Ember Warden
+role: mage
+resource: mana
+base_stats:
+  health: 590
+  health_per_level: 104
+  attack_damage: 52
+  armor: 21
+  move_speed: 330
+  attack_range: 550
+abilities:
+  - key: P
+    name: Kindling
+    description: Every third spell hit sets the target ablaze.
+  - key: Q
+    name: Flare Bolt
+    cooldowns: [8, 7.5, 7, 6.5, 6]
+    costs: [60, 65, 70, 75, 80]
+    description: Fires a bolt that damages the first enemy hit.
+  - key: W
+    name: Smoke Screen
+    cooldowns: [18, 17, 16, 15, 14]
+    costs: [80, 80, 80, 80, 80]
+    description: Creates a cloud that slows enemies inside it.
+  - key: E
+    name: Cinder Step
+    cooldowns: [22, 20, 18, 16, 14]
+    costs: [90, 90, 90, 90, 90]
+    description: Dashes a short distance, leaving a burning trail.
+  - key: R
+    name: Wildfire
+    cooldowns: [120, 100, 80]
+    costs: [100, 100, 100]
+    description: Ignites a huge area, damaging enemies over time.

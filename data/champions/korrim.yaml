@@ -1,0 +1,32 @@
+id: korrim
+name: Korrim
+title: the Stone Bulwark
+role: tank
+resource: none
+base_stats:
+  health: 680
+  health_per_level: 118
+  attack_damage: 64
+  armor: 36
+  move_speed: 335
+  attack_range: 125
+abilities:
+  - key: P
+    name: Bedrock
+    description: Gains armor for each nearby enemy champion.
+  - key: Q
+    name: Quake Fist
+    cooldowns: [10, 9.5, 9, 8.5, 8]
+    description: Slams the ground, knocking up enemies in front.
+  - key: W
+    name: Granite Skin
+    cooldowns: [16, 15, 14, 13, 12]
+    description: Gains a shield that grows with bonus armor.
+  - key: E
+    name: Landslide
+    cooldowns: [14, 13, 12, 11, 10]
+    description: Charges forward, pulling enemies along.
+  - key: R
+    name: Mountain's Wrath
+    cooldowns: [140, 120, 100]
+    description: Leaps to a location and stuns enemies on landing.
